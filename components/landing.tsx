@@ -13,7 +13,7 @@ export function Landing() {
       <div className="container grid gap-6 px-4 md:px-6 lg:grid-cols-2 xl:gap-12">
         <div className="flex flex-col justify-center space-y-6">
           <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl md:text-6xl">
-            Demander un devis pour un écran graphique
+            Demander un devis pour un &apos;écran graphique
           </h1>
           <p className="max-w-[600px] text-gray-600 md:text-lg lg:text-base xl:text-lg dark:text-gray-400">
             Améliorez la communication dans votre entreprise avec nos écrans graphiques haute résolution. Notre système
