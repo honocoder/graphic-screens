@@ -9,10 +9,14 @@ export function Form() {
             const script = document.createElement('script');
             script.src = "https://tally.so/widgets/embed.js";
             script.onload = () => {
+
+                // @ts-ignore
                 if (typeof Tally !== 'undefined') {
+                    // @ts-ignore
                     Tally.loadEmbeds();
                 } else {
                     document.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((e) => {
+                        // @ts-ignore
                         e.src = e.dataset.tallySrc;
                     });
                 }
